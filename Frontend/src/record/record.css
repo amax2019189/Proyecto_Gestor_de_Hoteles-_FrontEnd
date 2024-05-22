@@ -1,0 +1,46 @@
+/* Paleta de colores */
+:root {
+    --color-primary: #333333; /* Gris oscuro */
+    --color-secondary: #666666; /* Gris medio */
+    --color-tertiary: #999999; /* Gris claro */
+    --color-background: #f5f5f5; /* Gris muy claro */
+    --color-white: #ffffff; /* Blanco */
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-primary);
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 20px;
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    padding: 20px;
+  }
+  
+  /* Estilos para las tablas */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--color-white);
+    box-shadow: 0 0 10px var(--color-tertiary);
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid var(--color-tertiary);
+  }
+  
+  th {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+  }
